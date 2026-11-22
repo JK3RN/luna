@@ -1,0 +1,302 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+
+
+*******************************************************************************
+Ephemeris / API_USER Sun Nov 15 01:04:30 2026 Pasadena, USA      / Horizons    
+*******************************************************************************
+Target body name: Moon (301)                      {source: DE441}
+Center body name: Earth (399)                     {source: DE441}
+Center-site name: (user defined site below)
+*******************************************************************************
+Start time      : A.D. 2001-Feb-21 23:20:34.7140 UT      
+Stop  time      : A.D. 2026-Oct-20 18:05:13.8912 UT      
+Step-size       : DISCRETE TIME-LIST
+*******************************************************************************
+Target pole/equ : MOON_ME                         {East-longitude positive}
+Target radii    : 1737.4, 1737.4, 1737.4 km       {Equator_a, b, pole_c}       
+Center geodetic : 0.0, 51.4769, .046              {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 3980.6882, 4966.79815      {E-lon(deg),Dxy(km),Dz(km)}
+Center pole/equ : ITRF93                          {East-longitude positive}
+Center radii    : 6378.137, 6378.137, 6356.752 km {Equator_a, b, pole_c}       
+Target primary  : Earth
+Vis. interferer : MOON (R_eq= 1737.400) km        {source: DE441}
+Rel. light bend : Sun                             {source: DE441}
+Rel. lght bnd GM: 1.3271E+11 km^3/s^2                                          
+Atmos refraction: NO (AIRLESS)
+RA format       : DEG
+Time format     : BOTH
+Calendar mode   : Mixed Julian/Gregorian
+EOP file        : eop.261113.p270209                                           
+EOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08
+Units conversion: 1 au= 149597870.700 km, c= 299792.458 km/s, 1 day= 86400.0 s 
+Table cut-offs 1: Elevation (-90.0deg=NO ),Airmass (>38.000=NO), Daylight (NO )
+Table cut-offs 2: Solar elongation (  0.0,180.0=NO ),Local Hour Angle( 0.0=NO )
+Table cut-offs 3: RA/DEC angular rate (     0.0=NO )                           
+Table format    : Comma Separated Values (spreadsheet)
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************
+ Date__(UT)__HR:MN:SC.fff, Date_________JDUT, , , R.A.___(ICRF), DEC____(ICRF),  R.A.__(a-app), DEC___(a-app), Azimuth_(a-app), Elevation_(a-app),      Illu%,  Ang-diam,  ObsSub-LON, ObsSub-LAT,  SunSub-LON, SunSub-LAT,    NP.ang,  NP.dist,             delta,     deldot,     S-O-T,/r,     S-T-O,       phi,  PAB-LON,  PAB-LAT,
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************
+$$SOE
+ 2001-Feb-21 23:20:34.714, 2451962.472624000, , , 321.767860289, -18.513416556,  321.773724957, -18.511149584,     0.538141799,     -57.033346357,    1.82423,  1742.892,  359.052987,   4.232227,  194.299291,  -1.208126,  340.4801,  869.070,  4.1123081671E+05, -0.0123043,   15.4873,/L,  164.4699,  164.4754, 235.4797, -12.4066,
+ 2001-Dec-23 23:38:13.891, 2452267.484883000, ,m,  14.670713338,   0.314357969,   14.692941262,   0.323111328,   256.290395367,      11.090525127,   59.99582,  1794.016,  355.631626,   7.003435,   73.997440,  -0.113177,  337.7032,  890.315,  3.9951220546E+05,  0.2271844,  101.3808,/T,   78.4668,   78.4679,  52.9437,  -3.5510,
+ 2002-Feb-03 09:59:03.696, 2452308.916015000,*,m, 208.472774554,  -8.113175911,  208.497438296,  -8.122827054,   252.956848285,       3.003998932,   63.05810,  1932.776,    5.433657,  -4.573768,  290.527147,  -1.187141,   19.6109, -963.311,  3.7083008944E+05,  0.3261797,  104.9986,/L,   74.8624,   74.8610, 171.8853,   2.1087,
+ 2002-Aug-28 15:11:53.837, 2452515.133262000,*, ,  36.211528398,  10.469863390,   36.245244519,  10.482049983,   347.145293663,     -27.231220512,   73.35168,  1762.356,  356.289803,   4.635026,  294.099587,   1.554963,  342.5014,  878.296,  4.0668916870E+05,  0.0270166,  117.7030,/L,   62.1607,   62.1581,   6.2557,  -2.1578,
+ 2003-Jul-24 05:36:58.205, 2452844.734007000,*,m,  61.083354352,  20.707230909,   61.128326820,  20.716695343,   124.829099572,      48.755917622,   23.43862,  1799.545,  359.018548,  -0.111784,  236.922410,   1.409590,  350.4759, -899.771,  3.9828458923E+05, -0.1730739,   57.7872,/L,  122.0855,  122.0884,   2.0644,  -0.0738,
+ 2003-Sep-07 13:21:28.598, 2452890.056581000,*, , 310.442702344, -23.940701413,  310.498218032, -23.928731838,    79.071250682,     -39.421873278,   89.31562,  1863.734,    5.255928,   6.966615,   43.133549,   1.448651,  344.5176,  924.987,  3.8456750368E+05, -0.1783365,  141.7560,/T,   38.1535,   38.1578, 325.5124,  -2.9061,
+ 2004-Jul-30 02:37:18.682, 2453216.609244000,A, , 285.214601361, -28.130574182,  285.289737200, -28.125730369,   231.666891905,      -6.423992558,   95.57417,  1985.396,  359.336545,   6.797336,   23.119557,   1.530011,  353.3540,  985.720,  3.6100196203E+05,  0.2114269,  155.6600,/T,   24.2839,   24.2888, 295.3287,  -2.7633,
+ 2004-Sep-20 06:32:00.586, 2453268.772229000,*, , 247.438876388, -25.393342541,  247.505403046, -25.405110036,    52.619658251,     -55.380543210,   34.77788,  1903.266,  358.247375,   4.410684,  106.103401,   0.921053,    7.5265,  948.815,  3.7657972115E+05, -0.1384668,   72.1367,/T,  107.7265,  107.7246, 303.6348,  -3.0002,
+ 2005-Mar-23 21:01:48.778, 2453453.376259000, ,m, 163.244676898,  10.464476663,  163.316915067,  10.436130556,   142.786041694,      43.650945762,   96.08172,  1824.911,  356.823187,  -4.185858,   19.395873,  -0.591370,   21.3097, -910.022,  3.9274857917E+05, -0.1573179,  157.1128,/T,   22.8285,   22.8338, 171.8861,   1.5795,
+ 2005-Oct-06 06:54:14.256, 2453649.787665000,*, , 223.743670870, -20.158990415,  223.818595048, -20.182331953,    91.395075298,     -25.051180128,    8.73896,  1841.321,  355.373395,   4.152929,  141.212032,   0.051851,   15.4102,  918.243,  3.8924854186E+05, -0.2884402,   34.3003,/T,  145.6157,  145.6109, 300.2421,  -5.6427,
+ 2006-Sep-04 18:17:34.685, 2453983.262207000,*,m, 303.604270074, -25.297713155,  303.710284150, -25.278597546,   139.678042901,       3.442737936,   87.15964,  1953.532,  354.531055,   6.585119,   36.170790,   0.401732,  348.0376,  970.322,  3.6689017307E+05, -0.2468514,  137.9148,/T,   41.9918,   41.9959, 321.0759,  -2.8460,
+ 2007-Jan-25 01:39:55.037, 2454125.569387000, , ,  19.587128771,  10.928133659,   19.679658180,  10.966249282,   308.524458281,     -13.792066098,   39.39585,  1930.729,    1.294449,  -3.312026,  103.624552,  -1.058835,  339.2431, -963.752,  3.7122321364E+05,  0.2285431,   77.6133,/T,  102.2457,  102.2445,  73.3559,   1.9685,
+ 2007-Aug-19 05:15:28.771, 2454331.719083000,*, , 212.574554529, -18.407180366,  212.679133261, -18.444710236,    22.684695938,     -55.319657481,   33.78496,  1748.629,  359.429289,   6.317032,  108.511698,   0.331458,   18.8299,  869.006,  4.0988164253E+05, -0.0595317,   70.9282,/T,  108.9252,  108.9232, 271.2723,  -4.2775,
+ 2007-Nov-14 01:14:54.614, 2454418.552021000, , , 276.574296893, -27.894462842,  276.695476731, -27.892026400,   311.619587912,     -59.778701176,   14.61721,  1768.129,  354.639235,   5.918460,  129.789274,  -1.514346,  358.1630,  879.352,  4.0536144774E+05,  0.0684621,   44.8407,/T,  135.0487,  135.0445, 343.6649,  -6.0208,
+ 2008-Sep-23 03:38:49.517, 2454732.651962000, ,m, 104.611634087,  25.270256670,  104.748146506,  25.259385193,   107.482018902,      45.486722669,   39.01787,  1953.418,    3.316386,  -3.312690,  260.540476,  -1.078084,    4.5342, -975.077,  3.6691153749E+05, -0.1656321,   77.1764,/L,  102.6869,  102.6880,  51.8151,   2.0050,
+ 2009-Mar-05 11:12:56.794, 2454895.967324000,*,m,  90.520877559,  25.873667683,   90.669356310,  25.874997072,    52.007354879,       3.952814281,   63.53564,  1944.536,  358.624829,  -3.350757,   72.833079,   0.911063,  359.0520, -970.606,  3.6858752963E+05, -0.2369082,  105.5712,/T,   74.2917,   74.2933, 127.6282,   1.5322,
+ 2009-Apr-08 13:55:10.963, 2454930.079988000,*, , 184.013000472,  -6.971654291,  184.140398695,  -7.026977514,    52.580319836,     -33.907246937,   98.69132,  1864.683,    5.001831,   6.163768,   17.313735,   1.496713,   22.7227,  926.952,  3.8437174224E+05, -0.1396509,  166.8337,/T,   13.1326,   13.1378, 192.5884,  -2.4205,
+ 2009-Nov-28 02:03:18.000, 2455163.585625000, ,m,   8.425231191,   8.679345752,    8.559845306,   8.737256074,   274.986610598,       7.210192762,   78.90810,  1849.279,  353.034125,  -6.151919,   47.624147,  -1.174527,  337.1059, -919.315,  3.8757343436E+05,  0.2086548,  125.2018,/T,   54.6754,   54.6786,  38.4816,   2.6146,
+ 2010-Aug-25 18:00:55.987, 2455434.250648000,*, , 343.688448365,  -2.950972236,  343.835467542,  -2.890252501,    84.179764939,      -8.298765318,   98.89072,  1760.292,  359.318983,  -5.115414,  347.832725,  -1.277386,  338.1578, -876.641,  4.0716599300E+05, -0.2862806,  167.8712,/L,   12.0967,   12.0915, 338.0659,   1.8601,
+ 2011-Apr-24 07:05:05.885, 2455675.795207000,*,m, 295.304913437, -19.660532563,  295.475863753, -19.632695974,   202.302501012,      16.143330947,   58.68558,  1845.483,    6.512735,  -2.461504,  286.580272,   1.197820,  351.5006, -921.890,  3.8837064131E+05,  0.1633781,   99.8572,/L,   79.9972,   79.9963, 253.7401,   1.1254,
+ 2011-Oct-16 00:37:02.208, 2455850.525720000, ,m,  63.182459452,  21.551374415,   63.365840326,  21.581973141,   130.885935772,      52.165450736,   86.59741,  1805.603,  355.746818,  -0.739216,  312.793075,  -1.288668,  348.2119, -902.726,  3.9694835611E+05, -0.1606600,  136.9419,/L,   42.9543,   42.9500,  43.7148,   0.2117,
+ 2012-Apr-17 07:27:47.203, 2456034.810963000,*,m, 342.840454140,  -2.582883947,  342.999048076,  -2.517458039,   149.904213244,      31.907856131,   14.39704,  1818.845,    5.504584,  -5.898840,  229.925734,   0.962832,  337.3921, -904.607,  3.9405836193E+05, -0.0852199,   44.4957,/L,  135.3987,  135.4027, 275.2027,   5.7585,
+ 2012-Jun-14 05:33:38.102, 2456092.731691000,*,m,  21.736230335,  12.081512007,   21.902891726,  12.145656366,   130.810139247,      41.289651043,   24.23404,  1792.533,    3.771855,  -3.738012,  242.637314,  -0.534204,  337.1081, -894.360,  3.9984270062E+05, -0.1409558,   58.8548,/L,  121.0159,  121.0188, 323.9933,   2.8044,
+ 2013-May-14 12:21:18.029, 2456427.014792000,*,m, 103.922761995,  17.896406189,  104.116759378,  17.876267017,   115.079844378,      40.471119612,   17.79671,  1786.243,  357.684994,   6.212962,  128.040338,  -0.183239,    4.7258,  887.876,  4.0125069729E+05, -0.2026563,   49.7846,/T,  130.0992,  130.0957, 168.6498,  -5.8262,
+ 2013-Sep-25 11:32:30.797, 2456560.980912000,*,m,  72.396388981,  18.717363576,   72.602347016,  18.739543835,   293.172615150,       5.676427422,   66.40350,  1790.615,    2.566733,   4.598980,  291.862611,  -0.908418,  351.8705,  892.425,  4.0027089854E+05,  0.2885534,  109.0055,/L,   70.8502,   70.8483,  37.8731,  -2.2794,
+ 2014-Jan-27 16:46:46.906, 2456685.199154000,C, , 261.189015769, -20.019360213,  261.396489740, -20.029197559,   278.339106836,     -32.364383094,   15.23021,  1952.139,  354.199936,  -4.296679,  220.122451,   1.496828,    4.4190, -973.326,  3.6715195110E+05,  0.1794534,   45.8425,/L,  134.0547,  134.0588, 194.5369,   4.0689,
+ 2014-Oct-02 04:26:07.930, 2456932.684814000,A, , 283.828787180, -18.076121783,  284.045423230, -18.053481589,   317.830091886,     -50.489392309,   54.01227,  1898.405,  354.781680,  -6.234881,   80.185585,  -0.311085,  354.6209, -943.588,  3.7754403525E+05,  0.0725990,   94.4590,/T,   85.3970,   85.3973, 325.9610,   3.2264,
+ 2015-May-25 22:11:11.443, 2457168.424438000,A,m, 156.646470582,   5.981082124,  156.847496822,   5.900744244,   248.554120589,      23.476939982,   51.88110,  1787.084,    1.663757,   4.306031,   89.402942,  -1.301183,   22.8345,  891.020,  4.0106175005E+05,  0.2580730,   92.0049,/T,   87.8436,   87.8439, 200.1485,  -2.4394,
+ 2015-Oct-28 06:13:48.922, 2457323.759594000,C,m,  42.861599008,  12.043319306,   43.082547265,  12.107609911,   275.032644587,      11.517561326,   99.14813,  1991.648,    2.641814,   5.285761,  352.982476,   0.904485,  342.0023,  991.590,  3.5986859983E+05,  0.3044429,  169.3780,/L,   10.5967,   10.5915,  39.1698,  -2.1113,
+ 2016-Jun-14 22:08:58.042, 2457554.422894000,N,m, 201.412271924,  -6.694870044,  201.628814170,  -6.779474240,   217.979270794,      24.765641880,   73.76202,  1782.251,    1.589122,  -3.063530,   63.253156,  -1.558172,   22.9747, -889.852,  4.0214938913E+05,  0.1684751,  118.2443,/T,   61.6223,   61.6250, 233.1044,   1.2489,
+ 2016-Sep-21 05:31:50.880, 2457652.730450000,C,m,  58.221755983,  14.423609703,   58.457918582,  14.471251176,   217.664234392,      47.896669025,   74.41507,  1983.119,    3.188727,   7.154931,  302.603857,   0.463747,  347.6152,  983.838,  3.6141646630E+05,  0.1480577,  119.1059,/L,   60.7739,   60.7710,  28.7767,  -3.2953,
+ 2017-Apr-30 14:22:55.546, 2457874.099254000,*,m,  98.102523050,  18.646524378,   98.350630684,  18.630454945,   141.278995659,      52.141039296,   23.31492,  1985.415,    4.956407,   5.753748,  127.237289,  -1.420549,    4.2716,  987.706,  3.6099848320E+05, -0.0588002,   57.6252,/T,  122.2588,  122.2559, 159.0518,  -4.7476,
+ 2017-Jul-15 05:38:39.120, 2457949.735175000,*,m,   3.847225943,  -2.599681232,    4.070896470,  -2.502345453,   196.936417473,      34.747083821,   67.33335,  1892.763,  352.982479,   4.808161,  283.418455,  -0.839023,  335.3308,  943.051,  3.7866943751E+05,  0.0119182,  110.1478,/L,   69.7184,   69.7164, 327.6161,  -2.3880,
+ 2018-Mar-26 04:52:48.662, 2458203.703341000,N, , 116.935735596,  18.578587817,  117.197736399,  18.531053903,   321.143657595,     -11.598114774,   67.37610,  1934.650,  359.703399,   2.934258,   69.268537,  -1.213764,   11.9420,  966.057,  3.7047095844E+05,  0.1686803,  110.2044,/T,   69.6622,   69.6642, 150.2958,  -1.5320,
+ 2019-Jan-19 08:58:50.707, 2458502.874198000,*, ,  92.928987115,  20.339745843,   93.213499285,  20.332667828,   340.469219487,     -16.071294922,   94.91053,  1964.576,  355.054997,   3.693552,   20.880504,  -0.039506,    2.6723,  980.248,  3.6482757810E+05,  0.0366292,  153.8663,/T,   26.0710,   26.0762, 105.7137,  -1.5797,
+ 2019-Apr-19 02:17:32.237, 2458592.595512000, ,m, 203.196160392,  -5.278632997,  203.448289665,  -5.377240715,   222.199034349,      24.608288680,   99.67836,  1965.268,    3.431630,  -5.630392,    8.485403,  -1.525494,   21.3888, -977.893,  3.6469922474E+05,  0.2102116,  173.4862,/T,    6.4979,    6.5023, 205.9513,   2.0618,
+ 2019-Aug-31 02:44:55.046, 2458726.614526000, , , 169.925159752,   8.447975985,  170.170518170,   8.344040809,    33.091073143,     -24.825207228,    0.91202,  1990.783,    1.543544,  -5.132309,  171.297141,   1.195517,   23.8144, -991.401,  3.6002496280E+05, -0.1218189,   10.9292,/T,  169.0451,  169.0399, 252.9762,  20.2653,
+ 2020-Jun-16 21:41:51.821, 2459017.404072000,N, ,  35.032887768,   8.669034345,   35.296797022,   8.759673692,    17.763673836,     -28.243635335,   18.22736,  1767.330,  358.325415,   6.285819,  228.598595,  -0.087907,  341.9122,  878.352,  4.0554465978E+05, -0.1044460,   50.4318,/L,  129.4500,  129.4536, 330.5993,  -5.8879,
+ 2021-Jan-25 14:12:23.875, 2459240.091943000,*,m,  87.627317230,  23.430764605,   87.948325222,  23.435770072,    60.417335063,       6.782322539,   89.60301,  1817.771,  356.182182,  -0.278517,   33.797074,  -1.147175,    0.7146, -908.875,  3.9429129342E+05, -0.2891624,  142.2892,/T,   37.6170,   37.6215, 106.6338,   0.0049,
+ 2021-Aug-24 07:08:17.952, 2459450.797430000,*, , 355.172409275,  -7.796917457,  355.452306078,  -7.676262988,   260.856257407,      -2.541929177,   96.36928,  1851.160,    4.589353,   6.723134,  343.171212,   1.561530,  336.9977,  919.215,  3.8717950158E+05,  0.3236634,  157.9711,/L,   21.9742,   21.9691, 341.7653,  -2.6709,
+ 2021-Nov-10 15:09:47.088, 2459529.131795000,*,m, 310.800784978, -24.132193401,  311.116488777, -24.055327246,   149.170830283,       8.881713666,   40.36045,  1919.297,    6.666403,   7.151738,  107.917052,   0.362920,  344.1208,  952.182,  3.7343443520E+05, -0.0843211,   78.7414,/T,  101.1169,  101.1157, 357.5865,  -4.5393,
+ 2022-Mar-22 11:24:20.563, 2459660.975238000,*, , 232.273351673, -19.857191406,  232.592534596, -19.933688063,   279.472026185,     -33.063679943,   79.92142,  1917.174,  357.485263,   0.883137,  304.281438,  -1.233699,   12.4593,  958.473,  3.7384785913E+05,  0.2233326,  126.6391,/L,   53.2459,   53.2426, 208.2390,  -0.5043,
+ 2022-Sep-25 16:28:13.123, 2459848.186263000,*,m, 180.470634628,   2.744013332,  180.753577246,   2.621052611,   256.359526099,      13.926380649,    0.12186,  1852.628,  355.336739,  -3.843222,  178.227517,   1.074002,   22.3968, -924.231,  3.8687272918E+05,  0.2266942,    3.9947,/L,  175.9948,  175.9990,  89.5668,  42.6924,
+ 2023-Jun-16 10:25:38.554, 2460111.934474000,*,m,  61.787492198,  23.197140537,   62.128800996,  23.258755665,   177.506975914,      61.764464239,    3.21717,  1859.172,    4.833959,  -3.130115,  205.431673,   1.268284,  350.5603, -928.199,  3.8551113911E+05,  0.0318115,   20.6192,/L,  159.3293,  159.3345, 344.3757,   6.3026,
+ 2024-Mar-14 10:15:41.616, 2460383.927565000,*,m,  47.191623599,  19.880572163,   47.532401991,  19.972686174,    83.927471725,      20.974801522,   22.33238,  1941.114,    6.962136,  -3.025427,  130.651256,  -0.578289,  345.6762, -969.204,  3.6923726555E+05, -0.1941365,   56.2812,/T,  123.6004,  123.5973, 112.0954,   2.2859,
+ 2024-Apr-21 14:25:29.683, 2460422.101038000,*, , 185.658206718,  -1.920726048,  185.973305655,  -2.057009460,    67.411252864,     -19.517745784,   95.08714,  1762.254,  359.750538,  -0.731342,   25.336149,   0.440313,   21.7619, -881.055,  4.0671264178E+05, -0.2546506,  154.3260,/T,   25.6068,   25.6119, 198.7589,   0.2504,
+ 2025-Apr-09 16:54:51.005, 2460775.204757000,*,m, 165.814979193,   6.942903693,  166.147710962,   6.805221066,    98.164163693,      15.105964029,   90.76077,  1797.224,    5.455848,  -1.104359,   40.805854,   0.639592,   21.1963, -898.445,  3.9879911103E+05, -0.2318497,  144.5249,/T,   35.3866,   35.3913, 181.9513,   0.4278,
+ 2025-May-09 05:56:05.424, 2460804.747285000,*, , 189.067856964,  -6.202936419,  189.399053453,  -6.344573361,   296.630068486,     -27.282957616,   89.55948,  1757.078,    2.618378,   2.568204,   40.322354,   1.278773,   21.6270,  877.656,  4.0791086200E+05,  0.2457232,  142.2065,/T,   37.6987,   37.7032, 209.6026,  -1.1148,
+ 2025-Nov-27 00:41:45.082, 2461006.528994000, , , 322.182080927, -17.522135471,  322.541721615, -17.409802128,   277.736723328,     -28.467005295,   36.59302,  1824.377,  352.197137,   3.183910,   97.693442,  -1.515629,  342.9676,  910.780,  3.9286367420E+05,  0.1817331,   74.2980,/T,  105.5552,  105.5536,  11.7611,  -2.0747,
+ 2026-Oct-20 18:05:13.891, 2461334.253633000,N,m, 322.889515824, -16.287959972,  323.263979032, -16.168739565,   156.804031826,      19.501381483,   69.62824,  1821.372,  354.995847,   1.745779,   61.819291,  -1.337500,  342.9473,  910.263,  3.9351182741E+05, -0.1619210,  112.9771,/T,   66.8836,   66.8858, 353.4187,  -0.9276,
+$$EOE
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************
+Column meaning:
+ 
+TIME
+
+  Times PRIOR to 1962 are UT1, a mean-solar time closely related to the
+prior but now-deprecated GMT. Times AFTER 1962 are in UTC, the current
+civil or "wall-clock" time-scale. UTC is kept within 0.9 seconds of UT1
+using integer leap-seconds for 1972 and later years.
+
+  Conversion from the internal Barycentric Dynamical Time (TDB) of solar
+system dynamics to the non-uniform civil UT time-scale requested for output
+has not been determined for UTC times after the next July or January 1st.
+Therefore, the last known leap-second is used as a constant over future
+intervals.
+
+  Time tags refer to the UT time-scale conversion from TDB on Earth
+regardless of observer location within the solar system, although clock
+rates may differ due to the local gravity field and no analog to "UT"
+may be defined for that location.
+
+  Any 'b' symbol in the 1st-column denotes a B.C. date. First-column blank
+(" ") denotes an A.D. date.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+  NOTE: "n.a." in output means quantity "not available" at the print-time.
+ 
+SOLAR PRESENCE (OBSERVING SITE)
+  Time tag is followed by a blank, then a solar-presence symbol:
+
+       '*'  Daylight (refracted solar upper-limb on or above apparent horizon)
+       'C'  Civil twilight/dawn
+       'N'  Nautical twilight/dawn
+       'A'  Astronomical twilight/dawn
+       ' '  Night OR geocentric ephemeris
+
+LUNAR PRESENCE (OBSERVING SITE)
+  The solar-presence symbol is immediately followed by a lunar-presence symbol:
+
+       'm'  Refracted upper-limb of Moon on or above apparent horizon
+       ' '  Refracted upper-limb of Moon below apparent horizon OR geocentric
+            ephemeris
+ 
+ 'R.A.___(ICRF), DEC____(ICRF),' =
+  Astrometric right ascension and declination of the target center with
+respect to the observing site (coordinate origin) in the reference frame of
+the planetary ephemeris (ICRF). Compensated for down-leg light-time delay
+aberration.
+
+  Units: RA  in decimal degrees,  ddd.fffff{ffff}
+         DEC in decimal degrees,  sdd.fffff{ffff}
+ 
+ 'R.A.__(a-app), DEC___(a-app),' =
+  Airless apparent right ascension and declination of the target center
+with respect to an instantaneous reference frame defined by the Earth equator
+of-date (z-axis) and meridian containing the Earth equinox of-date (x-axis,
+EOP-corrected IAU76/80). Compensated for down-leg light-time delay,
+gravitational deflection of light, stellar aberration, precession & nutation.
+Note: equinox (RA origin) is offset -53 mas from the of-date frame defined by
+the IAU06/00a P & N system.
+
+  Units: RA  in decimal degrees, ddd.fffff{ffff}
+         DEC in decimal degrees  sdd.fffff{ffff}
+
+ 
+ 'Azimuth_(a-app), Elevation_(a-app),' =
+  Airless apparent azimuth and elevation of target center. Compensated
+for light-time, the gravitational deflection of light, stellar aberration,
+precession and nutation. Azimuth is measured clockwise from north:
+
+  North(0) -> East(90) -> South(180) -> West(270) -> North (360)
+
+Elevation angle is with respect to a plane perpendicular to the reference
+surface local zenith direction. TOPOCENTRIC ONLY.  Units: DEGREES
+ 
+ 'Illu%,' =
+   Fraction of the target objects' assumed circular disk illuminated by Sun
+(phase), as seen by the observer.  Units: PERCENT
+ 
+ 'Ang-diam,' =
+   The equatorial angular width of the target body full disk, if it were fully
+illuminated and visible to the observer. If the target body diameter is unknown
+"n.a." is output.
+
+   Units: ARCSECONDS
+ 
+ 'ObsSub-LON, ObsSub-LAT,' =
+   Apparent planetodetic longitude and latitude of the center of the target
+disc seen by the OBSERVER at print-time.  This is NOT exactly the same as the
+"nearest" sub-point for a non-spherical target shape (since the center of the
+disc might not be the point closest to the observer), but is generally very
+close if not a very irregular body shape.  Down-leg light travel-time from
+target to observer is taken into account.  Latitude is the angle between the
+equatorial plane and the line perpendicular to the reference ellipsoid of the
+body, so includes body oblateness. The reference ellipsoid is an oblate
+spheroid with a single flatness coefficient in which the y-axis body radius
+is taken to be the same value as the x-axis radius.  Positive longitude is
+to the EAST for this target. Cartographic system is given in the header.
+   Units: DEGREES DEGREES
+ 
+ 'SunSub-LON, SunSub-LAT,' =
+   Apparent sub-solar longitude and latitude of the Sun on the target. The
+apparent planetodetic longitude and latitude of the center of the target disc
+as seen from the Sun, as seen by the observer at print-time. This is NOT
+exactly the same as the "sub-solar" (nearest) point for a non-spherical target
+shape (since the center of the disc seen from the Sun might not be the closest
+point to the Sun), but is very close if not a highly irregular body shape.
+Light travel-time from Sun to target and from target to observer is taken into
+account.  Latitude is the angle between the equatorial plane and the line
+perpendicular to the reference ellipsoid of the body. The reference ellipsoid
+is an oblate spheroid with a single flatness coefficient in which the y-axis
+body radius is taken to be the same value as the x-axis radius.  Positive
+longitude is to the EAST for this target. Cartographic system is given in the
+header.  Units: DEGREES DEGREES
+ 
+ 'NP.ang,  NP.dist,' =
+  Targets' apparent north-pole position angle (counter-clockwise with respect
+to the direction of the true-of-date reference-frame north-pole) and its
+angular distance from the sub-observer point (center of disk) at observation
+time.  A negative distance indicates the planets' north-pole is on the hidden
+hemisphere.  Units: DEGREES and ARCSECONDS
+ 
+ 'delta,     deldot,' =
+   Apparent range ("delta", light-time aberrated) and range-rate ("delta-dot")
+of the target center relative to the observer. A positive "deldot" means the
+target center is moving away from the observer, negative indicates movement
+toward the observer.  Units: KM and KM/S
+ 
+ 'S-O-T,/r,' =
+   Sun-Observer-Target apparent SOLAR ELONGATION ANGLE seen from the observers'
+location at print-time.
+
+   The '/r' column provides a code indicating the targets' apparent position
+relative to the Sun in the observers' sky, as described below:
+
+   Case A: For an observing location on the surface of a rotating body, that
+body rotational sense is considered:
+
+    /T indicates target TRAILS Sun   (evening sky: rises and sets AFTER Sun)
+    /L indicates target LEADS Sun    (morning sky: rises and sets BEFORE Sun)
+
+   Case B: For an observing point that does not have a rotational model (such
+as a spacecraft), the "leading" and "trailing" condition is defined by the
+observers' heliocentric ORBITAL motion:
+
+    * If continuing in the observers' current direction of heliocentric
+       motion would encounter the targets' apparent longitude first, followed
+       by the Sun's, the target LEADS the Sun as seen by the observer.
+
+    * If the Sun's apparent longitude would be encountered first, followed
+       by the targets', the target TRAILS the Sun.
+
+   Two other codes can be output:
+    /* indicates observer is Sun-centered    (undefined)
+    /? Target is aligned with Sun center     (no lead or trail)
+
+   The S-O-T solar elongation angle is numerically the minimum separation
+angle of the Sun and target in the sky in any direction. It does NOT indicate
+the amount of separation in the leading or trailing directions, which would
+be defined along the equator of a spherical coordinate system.
+
+   Units: DEGREES
+ 
+ 'S-T-O,' =
+   The Sun-Target-Observer angle; the interior vertex angle at target center
+formed by a vector from the target to the apparent center of the Sun (at
+reflection time on the target) and the apparent vector from target to the
+observer at print-time. Slightly different from true PHASE ANGLE (requestable
+separately) at the few arcsecond level in that it includes stellar aberration
+on the down-leg from target to observer.  Units: DEGREES
+ 
+ 'phi,  PAB-LON,  PAB-LAT,' =
+   "phi" is the true PHASE ANGLE at the observers' location at print time.
+"PAB-LON" and "PAB-LAT" are the J2000 ecliptic longitude and latitude of the
+phase angle bisector direction; the outward directed angle bisecting the arc
+created by the apparent vector from Sun to target center and the astrometric
+vector from observer to target center. For an otherwise uniform ellipsoid, the
+time when its long-axis is perpendicular to the PAB direction approximately
+corresponds to lightcurve maximum (or maximum brightness) of the body. PAB is
+discussed in Harris et al., Icarus 57, 251-258 (1984).
+
+   Units: DEGREES, DEGREES, DEGREES
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Inquiries   : Jon.D.Giorgini@jpl.nasa.gov
+
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************

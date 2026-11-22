@@ -1,0 +1,12 @@
+[package]
+name = "luna-ui"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish = false
+description = "LUNA Instrumentenschicht. Kennt nur den Szenenzustand."
+
+[dependencies]
+luna-core = { path = "../luna-core" }
+egui.workspace = true

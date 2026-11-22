@@ -1,0 +1,15 @@
+[package]
+name = "luna-forge"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish = false
+description = "LUNA Datenaufbereitung: Originaldateien → Karten mit Neigungen und Horizonten. Läuft einmalig."
+
+[dependencies]
+luna-data = { path = "../luna-data" }
+anyhow.workspace = true
+rayon.workspace = true
+tiff.workspace = true
+half.workspace = true

@@ -1,0 +1,23 @@
+[package]
+name = "luna"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish = false
+description = "LUNA — der Mond von jetzt, von hier, mit berechnetem Licht auf gemessenem Relief."
+
+[dependencies]
+luna-core = { path = "../luna-core" }
+luna-data = { path = "../luna-data" }
+luna-render = { path = "../luna-render" }
+luna-ui = { path = "../luna-ui" }
+wgpu.workspace = true
+winit.workspace = true
+egui.workspace = true
+egui-wgpu.workspace = true
+egui-winit.workspace = true
+pollster.workspace = true
+png.workspace = true
+anyhow.workspace = true
+serde_json.workspace = true

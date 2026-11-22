@@ -1,0 +1,14 @@
+[package]
+name = "luna-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish = false
+description = "LUNA Simulationskern: Zeitskalen, Ephemeriden, Bezugssysteme, Beobachter. Rechnet ohne Grafik."
+
+[dependencies]
+anise.workspace = true
+hifitime.workspace = true
+sofars = "0.6.1"
+anyhow.workspace = true
